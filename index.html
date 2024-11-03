@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holiday Cocktails</title>
+  <style>
+    body {
+      background-image: url("back.jpg");
+      background-size: cover;}
+      
+    h1 {
+        width: 100%;
+        background-color: darkgreen;
+        text-align: center;
+        font-size: xx-large;
+      }
+      p {
+        width: 100%;
+        
+        text-align: center;
+        font-size: larger;
+      }
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      width: 250px;
+      margin: 10px;
+      padding: 20px;
+      background-color: rgba(153, 0, 0, 0.8);
+      color: #ffd7b5;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+    }
+    .card img {
+      width: 65%;
+      height: 150px;
+      border-radius: 10px;
+    }
+    .card p {
+      margin: 10px 0;
+    }
+  </style>
+  <script src="jquery-3.6.0.js"></script>
+  <script src="cocktail_data.js"></script>
+</head>
+<body>
+  <h1>Holly Jolly Holiday Cocktails! <br>
+    Hover over a drink for ingredients, click the drink to see its calorie count. <br></h1>
+  
+  <div class="wrapper"></div>
+</body>
+</html>
